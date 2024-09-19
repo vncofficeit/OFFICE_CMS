@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+/* Sidebar styling */
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #343a40;
+    color: #fff;
+    min-height: 100vh;
+    position: fixed;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #3e444c;
+    text-align: center;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li {
+    padding: 10px;
+    text-align: left;
+    list-style: none;
+}
+
+#sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#sidebar ul li.active > a {
+    background: #17a2b8;
+}
+
+#sidebar ul li:hover {
+    background: #3e444c;
+}
+
+#content {
+    width: calc(100% - 250px);
+    padding: 20px;
+    margin-left: 250px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h5 {
+    font-size: 18px;
+    color: #333;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.navbar {
+    background: #17a2b8;
+    color: #fff;
+}
+
+.navbar h2 {
+    color: #fff;
+}
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-card h3 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.profile-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
